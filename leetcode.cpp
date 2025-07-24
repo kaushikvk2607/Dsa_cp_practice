@@ -5,6 +5,7 @@ using namespace std;
 
 class Solution {
 public:
+
     int minimumSubarrayLength(vector<int>& nums, int k) {
         if(k==0) return 1;
         int n = nums.size();
